@@ -75,7 +75,7 @@ public class CodeTest {
 
     @Test
     public void testFibonacci_1() {
-        assertEquals(-1,Code.fibonacci(-2));
+        assertEquals(-1,Code.fibonacci(-1));
     }
 
     @Test
@@ -85,16 +85,16 @@ public class CodeTest {
 
     @Test
     public void testFibonacci_3() {
-        assertEquals(1,Code.fibonacci(1));
+        assertEquals(1,Code.fibonacci(2));
     }
 
     @Test
     public void testFibonacci_4() {
-        assertEquals(7540113804746346429L,Code.fibonacci(92));
+        assertEquals(Long.MAX_VALUE,Code.fibonacci(100));
     }
 
     @Test
     public void testFibonacci_5() {
-        assertEquals(Long.MAX_VALUE,Code.fibonacci(93));
+        assertEquals(2,Code.fibonacci(3));
     }
 }

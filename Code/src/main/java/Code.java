@@ -22,4 +22,7 @@ public class Code {
 
 //  Fib[92]=7540113804746346429
 //  Fib[91]=4660046610375530309
+public static void main(String[] args) {
+  System.out.println(fibonacci(3));
+}
 }
